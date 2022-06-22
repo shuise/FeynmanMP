@@ -1,0 +1,155 @@
+  view{
+    font-size: 15px;
+    font-family: "Microsoft YaHei","PingFang SC","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color: #19223E;
+  }
+  .feyn-app .a{
+    color: #19223E;
+    text-decoration: none;
+  }
+  .feyn-pub{
+    min-height: 50px;
+    padding-top: 100px;
+  }
+
+  .feyn-app .h1 {
+    color: #fff;
+    /*-webkit-text-stroke: 1px #666;*/
+    padding-left: 1rem;
+  }
+
+  .feyn-list{
+    padding: 20px 10px;
+  }
+  .feyn-list .a:hover{
+    text-decoration: underline;
+    color: #000;
+  }
+  .feyn-list .h2{
+    padding-left: 10px;
+    margin: -10px 0 0;
+      font-size: 17px;
+  }
+  .feyn-list .item{
+    clear: both;
+    padding: 5px 20px;
+  } 
+  .feyn-list .item .span {
+    color: #666;
+    white-space: normal;
+  }
+  .fyen-more{
+    color: #666;
+    padding: 20px;
+    cursor: pointer;
+  }
+  .feyn-tools{
+    font-size: 14px;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    background: #f5f5f5;
+    padding: 10px 30px;
+  }
+  .feyn-tools .a{
+    color: #000;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  .feyn-mobile .feyn-pub{
+    padding-top: 100px;
+    /*background:#333 url(https://notes.bluetech.top/libs/banners/stars.jpg) no-repeat -200px bottom;*/
+    /*background-size: auto 150%;*/
+  }
+  .feyn-mobile .feyn-pub .h1{
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  .feyn-mobile .feyn-list .item{
+    clear: both;
+    padding: 10px;
+    border-bottom: 1px dotted #f5f5f5;
+  }
+  .feyn-mobile .feyn-list .item:hover{
+    background: #f5f5f5;
+  }
+  .feyn-mobile .feyn-list .item .span{
+    display: block;
+    color: #999;
+    font-size: 12px;
+    margin-top: 5px;
+  } 
+  .feyn-mobile .feyn-list .item .a{
+    width: 100%;
+    display: inline-block;
+  } 
+  .feyn-mobile .feyn-list {
+    /*padding-bottom: 100px;*/
+    min-height: 30rem;
+  }
+  .feyn-mobile .feyn-tools {
+    /*position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;*/
+    text-align: center;
+  }
+  .feyn-pub-stars{
+    background:#333 url(https://notes.bluetech.top/libs/banners/stars.jpg) no-repeat center bottom;
+  }
+  .feyn-mobile .feyn-pub-stars{
+    padding-top: 100px;
+    background:#333 url(https://notes.bluetech.top/libs/banners/stars.jpg) no-repeat -200px bottom;
+    background-size: auto 150%;
+  }
+  .feyn-pub-creators{
+    background:#333 url(https://notes.bluetech.top/libs/banners/creators.jpg) no-repeat 0 0;
+    background-size:auto 102%;
+  }
+  .feyn-pub-creators:hover{
+    background-position: 100% 0;
+    transition-property: background-position;
+    transition-duration: 20s;
+    transition-timing-function: ease-out;
+    animation-iteration-count: 5;
+  }
+  .feyn-pub-avatar{
+    background:url(https://notes.bluetech.top/libs/banners/avatar.jpg) no-repeat 0 80%;
+    background-size:100% auto;
+  }
+  .feyn-pub-church{
+    background:url(https://notes.bluetech.top/libs/banners/church.jpg) no-repeat 0 0;
+    background-size: 100% auto;
+  }
+  .feyn-pub-hills{
+    background:url(https://notes.bluetech.top/libs/banners/hills.jpg) no-repeat 0 0;
+    background-size: auto 100%;
+    background-position: -200px 0;
+  }
+  .feyn-pub-hills .h1{
+    -webkit-text-stroke: 1px #666;
+  }
+  .feyn-pub-ocean{
+    background:url(https://notes.bluetech.top/libs/banners/ocean.jpg) no-repeat 0 0;
+    background-size: 100% auto;
+    background-position: 0 -100px;
+  }
+  .feyn-pub-sky-road{
+    background:url(https://notes.bluetech.top/libs/banners/sky-road.jpg) no-repeat 0 0;
+    background-size: 100% auto;
+  }
+  .feyn-pub-temple{
+    background:url(https://notes.bluetech.top/libs/banners/temple.jpg) no-repeat 0 0;
+    background-size: 120% auto;
+  }
+  .feyn-pub-universe2{
+    background:url(https://notes.bluetech.top/libs/banners/universe2.jpg) no-repeat 0 0;
+    background-size: 100% auto;
+  }
+  .feyn-pub-window{
+    background:url(https://notes.bluetech.top/libs/banners/window.jpg) no-repeat 0 0;
+    background-size: 100% auto;
+  }
+  .feyn-pub-fishes{
+    background:url(https://notes.bluetech.top/libs/banners/fishes.jpg) no-repeat 0 80%;
+    background-size: 100% auto;
+  }

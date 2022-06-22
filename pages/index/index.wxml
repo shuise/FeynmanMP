@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="feyn-app" id="app">
+  <view class="feyn-pub feyn-pub-{{ tplName }}">
+    <block class="h1">{{ title }}</block>
+  </view>
+  
+  <view class="feyn-list">
+    <block wx:if="{{ topic }}" class="h2">话题：{{ topic }}</block>  
+    <view wx:for="{{ achives.list }}" class="item">
+      <!-- <a href="/published/{{ account }}/{{ item.uniqueId }}.html" target="_blank">{{ item.title }}</a> -->
+      <view class="a" data-article="{{ item }}" bindtap="detail">{{ item.title }}</view>
+      <view class="span">{{ dateFormat(item.publishedAt) }} {{ item.publishedAt }}</view>
+    </view>
+    <view class="fyen-more" wx:if="achives.current < achives.pages" click="loadAchivesMore">更多……</view>
+  </view>
+
+  <view class="feyn-tools">
+    本页面由 <view style="display: inline;" bindtap="website">Feynman 笔记</view> 生成
+  </view>
+  <web-view wx:if="{{ url }}" src="{{ url }}"></web-view>
+</view>
