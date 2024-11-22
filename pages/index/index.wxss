@@ -32,10 +32,10 @@
   }
   .feyn-list .item{
     clear: both;
-    padding: 5px 20px;
+    padding: 5px 20px 15px;
   } 
   .feyn-list .item .span {
-    color: #666;
+    color: #999;
     white-space: normal;
   }
   .fyen-more{
